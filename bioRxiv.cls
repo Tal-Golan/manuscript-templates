@@ -98,7 +98,7 @@
 \fi
 
 %% Hyperlinking
-\RequirePackage[colorlinks=true, allcolors=blue]{hyperref}
+\RequirePackage[hidelinks]{hyperref}
 \RequirePackage{orcidlink}
 
 %% Ref to Sup
@@ -316,7 +316,7 @@
 \if@submit
   \renewcommand\bibfont{\normalfont\sffamily\fontsize{9}{10}\selectfont} % set font to be sans serif
 \else
-  \renewcommand\bibfont{\normalfont\sffamily\fontsize{6}{8}\selectfont} % set font to be sans serif
+  \renewcommand\bibfont{\normalfont\sffamily\fontsize{7}{9}\selectfont} % set font to be sans serif
 \fi
 
 \makeatletter
