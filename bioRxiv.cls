@@ -375,6 +375,11 @@
   \def\interests{
   \Affilfont\bfseries COMPETING FINANCIAL INTERESTS\par\mdseries}
   \def\endinterests{\vspace{1em}\par\normalsize}
+
+  \def\dataavailability{
+  \Affilfont\bfseries DATA AND CODE AVAILABILITY\par\mdseries}
+  \def\enddataavailability{\vspace{1em}\par\normalsize}
+
 \else
   \def\@maketitle{\newpage
     \begin{flushleft}
@@ -409,6 +414,10 @@
   \def\interests{\vspace{.3em}
   \Affilfont\bfseries COMPETING FINANCIAL INTERESTS\par\mdseries}
   \def\endinterests{\vspace{0.3em}\par\normalsize}
+
+  \def\dataavailability{\vspace{.3em}
+  \Affilfont\bfseries DATA AND CODE AVAILABILITY\par\mdseries}
+  \def\enddataavailability{\vspace{0.3em}\par\normalsize}
 \fi
 
 %% environments
@@ -465,7 +474,7 @@
 %%
 \RequirePackage{fancyhdr} % Custom headers/footers
 \RequirePackage{lastpage} % Number of pages in the document
-\pagestyle{fancy}		  % Enables the custom headers/footers
+\pagestyle{fancy}     % Enables the custom headers/footers
 
 \if@submit
   \def\aBioRXiv{{\footnotesize
