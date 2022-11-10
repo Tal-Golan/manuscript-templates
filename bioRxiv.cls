@@ -309,7 +309,7 @@
 
 %% bibliography
 \RequirePackage{chapterbib} % outside of Overleaf, comment this line
-\RequirePackage[sectionbib,authoryear,round]{natbib}
+\RequirePackage[sectionbib,numbers,super,sort&compress]{natbib}
 
 
 % better link handling in bibliography
@@ -317,7 +317,7 @@
 \RequirePackage{xurl} % breaks long urls
 
 \setlength{\bibsep}{0.0pt}
-\bibliographystyle{bxv_abbrvnat}
+\bibliographystyle{unsrtnat}
 \renewcommand{\bibsection}{} % Remove header
 \if@submit
   \renewcommand\bibfont{\normalfont\sffamily\fontsize{9}{10}\selectfont} % set font to be sans serif
